@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+  text-align: center;
+  min-height: 93vh;
+  background-color: #485461;
+background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+/* You just need to get this field - start */
+
+.search-box {
+  width: 350px;
+  position: relative;
+  display: flex;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.search-input {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 15px 45px 15px 15px;
+  background-color: #eaeaeb;
+  color: #6c6c6c;
+  border-radius: 6px;
+  border:none;
+  transition: all .4s;
+}
+
+.search-input:focus {
+  border:none;
+  outline:none;
+  box-shadow: 0 1px 12px #b8c6db;
+  -moz-box-shadow: 0 1px 12px #b8c6db;
+  -webkit-box-shadow: 0 1px 12px #b8c6db;
+}
+
+.search-btn {
+  background-color: transparent;
+  font-size: 18px;
+  padding: 6px 9px;
+  margin-left:-45px;
+  border:none;
+  color: #6c6c6c;
+  transition: all .4s;
+  z-index: 10;
+}
+
+.search-btn:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: black;
+}
+
+.search-btn:focus {
+  outline:none;
+  color:black;
+}
+
+/* You just need to get this field - end */
+
+.footer {
+  position:fixed;
+  bottom:5px;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+  color:#000;
+}
+
+.footer a {
+  color: #fff;
+  transition: all .4s;
+}
+
+.footer a:hover {
+  color: #eaeaeb;
+}
+    </style>
+    
+
+<!-- You just need to get this field. Start -->
+<script src="https://kit.fontawesome.com/d97b87339f.js" crossorigin="anonymous"></script>
+
+<div class="search-box">
+  <input class="search-input" type="text" placeholder="Search something..">
+  <button class="search-btn"><i class="fas fa-search"></i></button>
+</div>
+<!-- You just need to get this field. End -->
+
+  <div class="footer">
+  <p>design by <a rel="dofollow" target="_blank" href="https://bugra.work">bugra.work</a></p>
+</div>
+</body>
+</html>
